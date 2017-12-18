@@ -13,7 +13,7 @@ namespace seanceipsas
 		{
 			InitializeComponent();
 
-			MainPage = new seanceipsas.MainPage();
+			MainPage = new seanceipsas.Page1();
 		}
 
 		protected override void OnStart ()

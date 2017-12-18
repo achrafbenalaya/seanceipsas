@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="seanceipsas.Page1" BackgroundColor="White">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        
+        <!--Ajout d'une image-->
+        <Image Source="icon.png" ></Image>
+                    <!--ajout de text -->
+        <Label Text="bsr Raphael" 
+             HorizontalOptions="Center" 
+             VerticalOptions="Center"
+             TextColor="Blue" 
+             FontSize="30"
+             FontAttributes="Bold"></Label>
+    
+        <!--button bienvenue-->
+    <Button Text="clique Me" Clicked="Button_OnClicked"></Button>
+    </StackLayout>
+</ContentPage>
